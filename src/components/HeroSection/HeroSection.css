@@ -1,0 +1,39 @@
+
+.herosection
+{
+    color: white;
+    height: 40rem;
+    background-color: rgb(13,13,13); 
+    width: 100vw;
+    display: flex;  
+}
+
+.left
+{
+   height: 54rem;
+   width: 50vw;
+   padding-top: 15rem;
+   padding-left: 11rem;
+}
+
+.herosectionh1
+{
+    font-size: 1.8rem;
+}
+
+.herosectionh1 span
+{
+    color:rgb(0,255,255)
+}
+
+.stack
+{
+    font-size: 2rem;
+}
+
+.myimage
+{
+    padding-top: 10rem;
+    padding-left: 3rem;
+    height: 25rem;
+}
