@@ -1,0 +1,63 @@
+.contact
+{
+    height: 35rem;
+    width: 100vw;
+    background-color: rgb(13,13,13);
+
+}
+.contactheading
+{
+    font-size: 2rem;
+    text-align: center;
+}
+.contactheading1
+{
+    text-align: center; 
+    color: grey;
+}
+.input1
+{
+    text-align: center;
+    height: 3rem;
+    width: 20vw;
+    margin-top: 2rem;
+    margin-left: 48rem;
+    border-radius: 3rem;
+}
+.input2
+{
+    text-align: center;
+    height: 3rem;
+    width: 20vw;
+    margin-top: 3rem;
+    margin-left: 48rem;
+    border-radius: 3rem;
+}
+.input1::placeholder
+{
+    color:black;
+}
+.input2::placeholder
+{
+    color:black;
+}
+
+.txtarea
+{
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 48rem;   
+}
+
+.btnsubmit
+{
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 48rem; 
+    width: 20vw;
+    height:3rem;
+    border-radius: 3rem;
+    border: none;
+}
+
+

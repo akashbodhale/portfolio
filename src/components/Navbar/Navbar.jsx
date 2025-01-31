@@ -12,9 +12,15 @@ function Navbar(){
                 <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100}  className="list">About</Link>
                 <Link activeClass="active" to="Skills" spy={true} smooth={true} offset={-100}  className="list">Skills</Link>
                 <Link activeClass="active" to="project" spy={true} smooth={true} offset={-100}  className="list">Projects</Link>
+         
             </div>
             <div className="btnNav">
-                <button className="btn">contact me</button>
+                <button onClick={()=>{const contactsection=document.getElementsByClassName('contact')[0];
+                    if(contactsection)
+                        {
+                            contactsection.scrollIntoView({behavior:"smooth"})
+                        }
+                }}  className="btn">contact me</button>
             </div>
 
         </div>
