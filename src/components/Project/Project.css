@@ -19,11 +19,17 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 .box1
 {
-    height: 20rem;
-    width: 20vw;
+    height: 25rem;
+    width: 24vw;
     border: 2px solid white;
     background-color: white;
+    border-radius: 2rem;
     
+}
+.androiddev
+{
+    color: black;
 }
