@@ -1,0 +1,29 @@
+.project
+{
+    height: 40rem;
+    width:100vw;
+    background-color: rgb(13,13,13);
+}
+
+.headingprojects
+{
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+
+.project1
+{
+    margin-top: 7rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1
+{
+    height: 20rem;
+    width: 20vw;
+    border: 2px solid white;
+    background-color: white;
+    
+}

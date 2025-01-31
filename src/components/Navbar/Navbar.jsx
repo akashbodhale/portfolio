@@ -8,10 +8,10 @@ function Navbar(){
                 <h1 className="logoh1"> A<span>kash</span> </h1>
             </div>
             <div className="listItems">
-                <Link className="list">Home</Link>
-                <Link className="list">About</Link>
-                <Link className="list">Skills</Link>
-                <Link className="list">Projects</Link>
+                <Link activeClass="active" to="herosection" spy={true} smooth={true} offset={-100} className="list">Home</Link>
+                <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100}  className="list">About</Link>
+                <Link activeClass="active" to="Skills" spy={true} smooth={true} offset={-100}  className="list">Skills</Link>
+                <Link activeClass="active" to="project" spy={true} smooth={true} offset={-100}  className="list">Projects</Link>
             </div>
             <div className="btnNav">
                 <button className="btn">contact me</button>
